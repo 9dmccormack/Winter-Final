@@ -7,6 +7,11 @@ function Device(t,ma,c){
   this.juice = 1;
   this.rate = [0.0015,0.0235,0.23];
 
+this.power(){
+  this.power = ma / c;
+  return this.power * 100;
+}
+
 this.off = function(){
   if(this.state == "idle" || this.state = "active"){
     this.state = "off";
