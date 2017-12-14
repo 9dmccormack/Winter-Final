@@ -3,11 +3,11 @@
 function Device(t,ma,c){
   this.type = t;
   this.milliamps = ma;
-  this.capacilty = c;
+  this.capacity = c;
   this.juice = 1;
   this.rate = [0.0015,0.0235,0.23];
 
-this.power(){
+this.juice = function(){
   this.power = ma / c;
   return this.power * 100;
 }
