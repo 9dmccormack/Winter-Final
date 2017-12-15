@@ -27,7 +27,7 @@ function ChargingDock(){
             let temp = this.ports[dvcIdx];
             this.ports = undefined;
             this.leds[dvcIdx] = "red";
-            return temp 
+            return temp
           }
         }
     };
@@ -47,7 +47,9 @@ function ChargingDock(){
 }
 
 //defines the testing code
-function main(){}
+function main(){
+}
 
 //runs the main code
-main();
+main(
+);
